@@ -1,0 +1,16 @@
+
+
+/*中间样式*/
+#middle{width:1280px; height:770px}
+#middle h1{ color:#FFFFFF; float:left; font-size:50px; margin-top:80px; margin-left:20px; width:1200px}
+#middle_body{width:1280px; height:620px; float:left}
+#middle_body ul li{float:left; margin-top:35px; margin-left:63px; position:relative}
+#middle_body ul li h2{margin-left:8px; color:#FF46a8}
+#middle_body ul li h3{margin-left:4px; color:#ffffff; margin-bottom:8px}
+#middle_body ul li img{border:#FFFFFF 4px solid}
+#middle_body ul li .box{width:343px; height:195px; overflow:hidden; transform-style:preserve-3d}
+#middle_body ul li p{ position:absolute; width:335px; height:187px; background:rgba(102,102,102,0.7); top:60px; left:3px;
+					color:#FFFFFF; font-size:40px; text-align:center; line-height:187px; opacity:0;
+					 transform:rotate(160deg) rotateY(-250deg);-moz- transform:rotate(160deg) rotateY(-250deg);-ms- transform:rotate(160deg) rotateY(-250deg);-o- transform:rotate(160deg) rotateY(-250deg);-webkit- transform:rotate(160deg) rotateY(-250deg); transition:all 1s;-moz-transition:all 1s;-ms-transition:all 1s;-o-transition:all 1s;-webkit-transition:all 1s;}
+#middle_body ul li .box:hover p{ opacity:1; transform:rotate(0deg) rotateY(0deg);-moz-transform:rotate(0deg) rotateY(0deg);-ms-transform:rotate(0deg) rotateY(0deg);-o-transform:rotate(0deg) rotateY(0deg);-webkit-transform:rotate(0deg) rotateY(0deg)}
+/*中间样式--end*/

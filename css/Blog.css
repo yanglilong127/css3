@@ -1,0 +1,25 @@
+
+/*中间样式*/
+#middle{width:1280px; height:1060px}
+#middle h1{width:1000px; float:left; margin-left:20px; color:#ffffff; font-size:50px; margin-top:80px;margin-bottom:30px}
+#middle #middle_t{width:1280px; height:auto; float:left}
+#middle #middle_t .middle_t1{width:1280px; height:240px; margin-top:10px;  float:left}
+#middle #middle_t .middle_t1 .middle_t1_pic{width:350px; height:200px; border:4px #FFFFFF solid; margin-top:20px; margin-left:5px;
+											 float:left;}
+#middle #middle_t .middle_t1 .middle_t1_text{float:right; width:890px; height:240px;  margin-right:10px}
+.middle_t1_text h2{margin-top:20px; color:#ff4282; margin-bottom:5px}
+.middle_t1_text h3{margin-bottom:3px; color:#c09ca6}
+.middle_t1_text h4{color:#ffffff}
+.middle_t1_text p{background:#FF0099; width:100px; height:30px; text-align:center; font-size:16px; line-height:30px; margin-right:20px;
+					margin-top:10px; border-radius:8px; color:#FFFFFF; transition:all 1s}
+.middle_t1_text p:hover{background:#000000;}
+
+#middle #middle_f{width:280px; height:25px;  float:right; margin-top:45px; margin-right:20px}
+#middle_f ul li{background:#FFFFFF; width:25px; color:#CC00CC; float:left; margin-left:15px; line-height:25px; 
+				text-align:center; font-size:16px; transition:all 0.8s;-moz-transition:all 0.8s;-ms-transition:all 0.8s;
+					-o-transition:all 0.8s;-webkit-transition:all 0.8s}
+#middle_f ul li.da{width:50px; height:25px;}
+#middle_f ul li.on{background:#333}
+#middle_f ul li:hover{background:#333; cursor:pointer}
+
+/*中间样式--*/

@@ -1,0 +1,42 @@
+
+
+/*中部样式--*/
+#middle{width:1280px; height:1210px}
+/*中部样式上面--*/	
+#middle_t{width:1280px; height:500px; float:left; margin-top:60px; position:relative; overflow:hidden}
+#middle_t ul{ position:absolute; top:0; left:0; width:3000px}
+#middle_t ul li{width:45px; height:500px; float:left; color:#FFFFFF; transition:all 2s; position:relative}
+#middle_t ul li:hover{width:1100px}
+#middle_t ul li h1{ position:absolute; bottom:0px; width:45px; height:25px; background:rgba(0,0,0,0.6); font-size:15px; text-align:center; 					line-height:25px; transition:all 2s;
+					-moz-transition:all 0.5s;-ms-transition:all 0.5s;-o-transition:all 0.5s;-webkit-transition:all 0.5s}
+#middle_t ul li:hover h1{width:1100px; height:100px; line-height:100px}
+/*中部样式中间--*/		
+#middle_m{width:1280px; height:200px; float:left; margin-top:30px}
+#middle_m li{width:420px; height:200px; background:rgba(0,0,51,0.5); float:left; 
+			transition:all 0.8s;-moz-transition:all 0.8s;-ms-transition:all 0.8s;-o-transition:all 0.8s;-webkit-transition:all 0.8s}
+#middle_m li:hover{background:rgba(204,0,255,1);}
+#middle_m li.li1{ margin-left:10px; background:rgba(204,0,255,0.5); 
+			transition:all 0.8s;-moz-transition:all 0.8s;-ms-transition:all 0.8s;-o-transition:all 0.8s;-webkit-transition:all 0.8s}
+#middle_m li.li1:hover{background:rgba(204,0,255,1)}
+#middle_m li .pic1{ margin-top:15px; margin-left:20px;  width:240px; height:170px; float:left; overflow:hidden}
+#middle_m li .pic1 img{border-radius:10px; transition:all 1s;-moz-transition:all 1s;
+						-ms-transition:all 1s;-o-transition:all 1s;-webkit-transition:all 1s}
+#middle_m li:hover .pic1 img{transform:scale(1.2);-moz-transform:scale(1.2);
+							-ms-transform:scale(1.2);-o-transform:scale(1.2);-webkit-transform:scale(1.2); }
+#middle_m li .text2{ margin-left:10px; width:150px; height:200px; float:left; text-align:center; color:#FFFFFF}
+#middle_m li .text2 h1{margin-top:50px; font-size:60px}
+/*中部样式结尾--*/	
+#middle_f{float:left; margin-top:70px; width:1280px; height:350px}
+#middle_f ul li{width:400px; height:350px; float:left;  color:#FFFFFF}
+#middle_f ul li.li2{margin-left:40px}
+#middle_f ul li .h1{margin-top:10px}
+#middle_f ul li h4{margin-top:20px; color:#f39ef2}
+#middle_f ul li img{margin-top:10px}
+#middle_f ul li p{ background:#ca009c; width:90px; height:40px; line-height:40px; text-align:center; border-radius:5px; margin-top:20px;
+					margin-right:10px; transition:all 1s;-moz-transition:all 1s;
+						-ms-transition:all 1s;-o-transition:all 1s;-webkit-transition:all 1s}
+#middle_f ul li p:hover{ background:#000000}
+#middle_f ul li ul li{ background:url(../img/121.png) no-repeat; width:400px; height:20px; text-indent:30px; color:#f39ef2; 
+						margin-top:10px}
+#middle_f ul li ul li:hover{color:#FFFFFF; text-indent:35px}
+/*中部样式--end*/

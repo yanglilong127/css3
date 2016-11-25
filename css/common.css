@@ -1,0 +1,29 @@
+*{margin:0 auto; padding:0}
+ul,li{list-style:none}
+a{text-decoration:none}
+#contain{width:1280px; height:auto; background:url(../img/bg.jpg) -120px -270px; }
+
+/*头部样式*/
+#top{width:1280px; height:78px; position:relative; top:30px}
+#log{float:left}
+#daohang{float:right}
+#daohang ul{margin-right:50px; margin-top:20px}
+#daohang ul li{float:left; margin-left:50px; color:#FFFFFF; font-size:25px; transition:all 0.8s; -o-transition:all 0.8s; -webkit-transition:all 0.8s; -ms-transition:all 0.8s; -moz-transition:all 0.8s;}
+#daohang ul li.text1{color:#FF0066}
+#daohang ul li:hover{color:#FF0066; }
+/*头部样式--end*/
+
+/*尾部样式*/
+#foot{width:1280px; height:330px;}
+#foot_t{width:1280px; height:270px; background:rgba(0,0,0,0.5)}
+#foot_t .foot_t1{width:640px; height:270px ; float:left}
+#foot_t .footd1{background:url(../img/f-icon.png) no-repeat 430px 60px;}
+#foot_t .footd2{background:url(../img/foot-icon.png) no-repeat 430px 60px;}
+#foot_t .foot_t1 h1{ color:#FFFFFF; margin-top:30px; margin-left:60px}
+#foot_t .foot_t1 ul{ color:#FFFFFF; margin-left:60px}
+#foot_t .foot_t1 ul li{ margin-top:18px; text-indent:20px; background:url(../img/marker.png) no-repeat; height:15px; line-height:15px;
+						color:#f39ef2; transition:all 0.5s; -moz-transition:all 0.5s;-ms-transition:all 0.5s;-o-transition:all 0.5s;
+						 -webkit-transition:all 0.5s}
+#foot_t .foot_t1 ul li:hover{ color:#FFFFFF; font-size:18px}
+#foot_f{width:1280px; height:60px; background:rgba(0,0,0,0.8); line-height:60px; text-align:center; color:#FFFFFF}
+/*尾部样式--end*/

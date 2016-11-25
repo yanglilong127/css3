@@ -1,0 +1,14 @@
+
+/*中间样式*/
+#middle{width:1280px; height:540px; }
+#middle ul{float:left; margin-top:100px;}
+#middle ul li{float:left; width:360px; height:400px;  margin-left:50px}
+#middle ul li h1{color:#ffffff}
+#middle ul li .text_xiao,.text_da{width:350px; height:140px; color:#FFFFFF; border:#999 1px solid; margin-top:30px;
+									 background:rgba(0,0,0,0); text-indent:8px}
+#middle ul li .text_xiao{ height:30px; }
+#middle ul li .text_da{ height:140px; }
+#middle ul li .submit1{margin-top:30px; margin-left:250px; width:90px; height:30px; color:#ffffff; background:rgba(255,0,255,1);
+						border-radius:8px }
+#middle ul li h4{color:#C09; margin-top:20px}
+/*中间样式--end*/

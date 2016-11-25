@@ -1,0 +1,14 @@
+/*中间样式*/
+#middle{width:1280px; height:680px;}
+#middle h1{color:#FFFFFF; font-size:50px; float:left; margin-left:10px; margin-top:80px; width:1000px}
+#middle .u1 li{width:270px; height:160px; float:left; border:#CCCCFF 4px solid; margin-left:33px; margin-top:40px; 			
+				border-radius:25px 0 25px 0; overflow:hidden; position:relative}
+#middle .u1 li p{width:270px; height:160px;; position:absolute; background:url(../img/zoom.png) no-repeat; top:-120px; left:70px;opacity:0; transition:all 1s;-moz-transition:all 1s;-ms-transition:all 1s;-o-transition:all 1s;-webkit-transition:all 1s}
+#middle .u1 li:hover p{top:25px; opacity:1}
+#middle .u2{margin-top:40px; margin-right:640px; float:right;}
+#middle .u2 li{width:45px; height:45px; background:#ffffff; float:left; margin-left:20px; line-height:45px; text-align:center;
+				border-radius:45px; transition:all 0.7s;-moz-transition:all 0.7s;-ms-transition:all 0.7s;-o-transition:all 0.7s;
+				-webkit-transition:all 0.7s;}
+#middle .u2 li.hao{ background:#FF00FF; color:#FFFFFF}
+#middle .u2 li:hover{background:#FF00FF; color:#FFFFFF}
+/*中间样式-end-*/
